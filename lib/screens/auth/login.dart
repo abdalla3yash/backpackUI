@@ -7,7 +7,6 @@ import 'package:backpack/widgets/text.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
-  // Initially password is obscure
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }

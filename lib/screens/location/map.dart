@@ -39,7 +39,6 @@ class CustomGoogleMap extends StatefulWidget {
 class _CustomGoogleMapState extends State<CustomGoogleMap> {
   Completer<GoogleMapController> _controller = Completer();
 
-
   static final CameraPosition _kGooglePlex = CameraPosition(
       bearing: 192.8334901395799,
       target: LatLng(51.5074, 0.1278),
@@ -79,7 +78,6 @@ class CustomCategoryChip extends StatelessWidget {
   }
 }
 
-/// Content of the DraggableBottomSheet's child SingleChildScrollView
 class CustomScrollViewContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -302,14 +300,6 @@ class CustomRestaurantCategory extends StatelessWidget {
             DecorationImage(image: ExactAssetImage(text), fit: BoxFit.contain),
         borderRadius: BorderRadius.circular(8),
       ),
-      // child: Center(
-      //   child: CustomText(
-      //     text: word,
-      //     fontSize: 10,
-      //     color: Colors.white,
-      //     fontWeight: FontWeight.w600,
-      //   ),
-      // ),
     );
   }
 }
@@ -380,7 +370,6 @@ class _CustomFeaturedItemState extends State<CustomFeaturedItem> {
                 constraints: BoxConstraints(minHeight: 36.0),
                 isSelected: isSelected,
                 onPressed: (index) {
-                  // Respond to button selection
                   setState(() {
                     isSelected[index] = !isSelected[index];
                   });
