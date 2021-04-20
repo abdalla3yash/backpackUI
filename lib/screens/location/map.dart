@@ -39,10 +39,6 @@ class CustomGoogleMap extends StatefulWidget {
 class _CustomGoogleMapState extends State<CustomGoogleMap> {
   Completer<GoogleMapController> _controller = Completer();
 
-  // static final CameraPosition _kGooglePlex = CameraPosition(
-  //   target: LatLng(29.9285, 30.9188),
-  //   zoom: 14.4746,
-  // );
 
   static final CameraPosition _kGooglePlex = CameraPosition(
       bearing: 192.8334901395799,
